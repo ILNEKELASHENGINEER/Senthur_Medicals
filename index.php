@@ -29,7 +29,7 @@ switch ($view) {
 		} 
 		$content='customer/orderdetails.php';	
 	if( isset($_SESSION['orderdetails'])){
-      if (@count($_SESSION['orderdetails'])>0){
+        if (is_array($_SESSION['orderdetails']) && array_key_exists(0, $_SESSION['orderdetails'])) {
         	$title = 'Cart List' . '| <a href="">Order Details</a>';
 		      }
 		    } 
@@ -40,8 +40,8 @@ switch ($view) {
 		} 
 		$content='customer/customerbilling.php';	
 		if( isset($_SESSION['billingdetails'])){
-      if (@count($_SESSION['billingdetails'])>0){
-        	$title = 'Cart List' . '| <a href="">Billing Details</a>';
+            if (is_array($_SESSION['billingdetails']) && array_key_exists(0, $_SESSION['billingdetails'])) {
+                $title = 'Cart List' . '| <a href="">Billing Details</a>';
 		      }
 		    } 	
 		break;
@@ -63,4 +63,3 @@ switch ($view) {
 }
 require_once("theme/templates.php");
 ?>
-
