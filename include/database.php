@@ -37,10 +37,21 @@ class Database {
 	}
 	
 	function executeQuery() {
-		$result = mysqli_query($this->conn,$this->sql_string);
-		$this->confirm_query($result);
-		return $result;
-	}	
+		try {
+			$result = mysqli_query($this->conn, $this->sql_string);
+			$this->confirm_query($result);
+			return $result;
+		} catch (mysqli_sql_exception $e) {
+			// Handle duplicate entry error
+			if ($e->getCode() == 1062) { // MySQL error code for duplicate entry
+				echo "Error: Duplicate entry detected. Please try again.";
+			} else {
+				// Handle other database errors
+				echo "Error: " . $e->getMessage();
+			}
+		}
+	}
+		
 	
 	private function confirm_query($result) {
 		if(!$result){
