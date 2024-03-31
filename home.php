@@ -9,42 +9,42 @@
               <li data-target="#slider-carousel" data-slide-to="2"></li>
             </ol>
             
-            <div class="carousel-inner" style="background:#ffceff !important;">
+            <div class="carousel-inner" style="background:#b3f5ab !important;">
               <div class="item active">
                 <div class="col-sm-6">
                   <h1><span>Smart</span>-SHOP</h1>
                   <h2>Senthur Medicals</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <p>Your health, our priority. Explore our pharmacy online and find the care you deserve. </p>
                  
                 </div>
                 <div class="col-sm-6">
-                  <img src="images/home/girl1.jpg" class="girl img-responsive" alt="" />
-                  <img src="images/home/pricing.png"  class="pricing" alt="" />
+                  <img src="images\home\medicine1.jpg" class="girl img-responsive" alt="" style="padding-top: 30px;" />
+                  <img src="images\home\price-removebg-preview.png"  class="pricing" alt="" style="width: 14rem; height: 14rem; right: 0;bottom: 0;background-color: #b9ffb0;border-radius: 50%;" />
                 </div>
               </div>
               <div class="item">
                 <div class="col-sm-6">
-                <h1><span>Smart</span>-SHOP</h1>
-                  <h2>100% Responsive Design</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <h1><span>Senthur</span>-Medicals</h1>
+                  <h2>100% Quality</h2>
+                  <p>Healing begins with convenience. Experience the ease of online pharmacy shopping. </p>
                  
                 </div>
                 <div class="col-sm-6">
-                  <img src="images/home/girl2.jpg" class="girl img-responsive" alt="" />
-                  <img src="images/home/pricing.png"  class="pricing" alt="" />
+                  <img src="images\home\drugs2.avif" class="girl img-responsive" alt="" style="padding-top: 30px;"/>
+                  <img src="images\home\price-removebg-preview.png"  class="pricing" alt="" style="width: 14rem; height: 14rem; right: 0;bottom: 0;background-color: #b9ffb0;border-radius: 50%;"/>
                 </div>
               </div>
               
               <div class="item">
                 <div class="col-sm-6">
                 <h1><span>Smart</span>-SHOP</h1>
-                  <h2>Free Ecommerce Template</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <h2>Senthur Medicals</h2>
+                  <p>Every click brings you closer to better health. Start your journey with our online pharmacy today. </p>
                  
                 </div>
                 <div class="col-sm-6">
-                  <img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
-                  <img src="images/home/pricing.png" class="pricing" alt="" />
+                  <img src="images\home\syringe.webp" class="girl img-responsive" alt="" style="padding-top: 30px;" />
+                  <img src="images\home\price-removebg-preview.png" class="pricing" alt="" style="width: 14rem; height: 14rem; right: 0;bottom: 0;background-color: #b9ffb0;border-radius: 50%;"/>
                 </div>
               </div>
               
@@ -96,23 +96,23 @@
                       <img src="<?php  echo web_root.'admin/products/'. $result->IMAGES; ?>" alt="" />
                       <h2>&#8377 <?php  echo $result->PRODISPRICE; ?></h2>
                       <p><?php  echo    $result->PRODESC; ?></p>
-                      <button type="submit" name="btnorder" class="btn add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                      <button type="submit" name="btnorder" class="btn add-to-cart" style="background-color: #457a3e;" ><i class="fa fa-shopping-cart"></i>Add to cart</button>
                     </div>
                     <div class="product-overlay" >
                       <div class="overlay-content">
                         <h3>&#8377 <?php  echo $result->PRODISPRICE; ?></h3>
                         <p><?php  echo    $result->PRODESC; ?></p>
-                       <button type="submit" name="btnorder" class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                       <button type="submit" name="btnorder" class="add-to-cart" style="background-color: #457a3e;color: white;" ><i class="fa fa-shopping-cart"></i>Add to cart</button>
                       </div>
                     </div>
                 </div>
-                <div class="choose">
-                  <ul class="nav nav-pills nav-justified">
+                <div class="choose" >
+                  <ul class="nav nav-pills nav-justified" >
                     <li>
                               <?php     
                             if (isset($_SESSION['CUSID'])){  
 
-                              echo ' <a href="'.web_root. 'customer/controller.php?action=addwish&proid='.$result->PROID.'" title="Add to wishlist" class="btn btn-danger"><i class="fa fa-plus-square"></i>Add to wishlist</a></a>
+                              echo ' <a style="background-color: white;color: black;border: 2px solid green;" href="'.web_root. 'customer/controller.php?action=addwish&proid='.$result->PROID.'" title="Add to wishlist" class="btn btn-danger"><i class="fa fa-plus-square"></i>Add to wishlist</a></a>
                             ';
 
                              }else{
