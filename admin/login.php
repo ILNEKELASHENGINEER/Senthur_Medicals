@@ -109,7 +109,7 @@ if(isset($_POST['btnLogin'])){
     //make use of the static function, and we passed to parameters
     $res = $user::userAuthentication($email, $h_upass);
     if ($res==true) { 
-       message("You logon as ".$_SESSION['U_ROLE'].".","success");
+       message("You login as ".$_SESSION['U_ROLE'].".","success");
       if ($_SESSION['U_ROLE']=='Administrator'){
          redirect(web_root."admin/index.php");
       }else{
