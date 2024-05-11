@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | E-Shopper</title>
+    <title>Senthur Medicals</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -17,7 +17,8 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <!-- <link rel="shortcut icon" href="images/ico/favicon.ico"> -->
+    <link rel="shortcut icon" href="images/home/logos.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -43,38 +44,14 @@ if (isset($_SESSION['gcCart'])){
 <body style="background-color:white" onload="totalprice()" >
 
   <header id="header"><!--header-->
-    <div class="header_top" style="background: linear-gradient(to bottom, #993366 0%, #660066 100%); !important;"><!--header_top-->
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="contactinfo">
-              <ul class="nav nav-pills" >
-                <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i> Nowdemyofficial@gmail.com</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="social-icons pull-right">
-              <ul class="nav navbar-nav">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!--/header_top-->
+    
     
     <div class="header-middle"><!--header-middle-->
       <div class="container">
         <div class="row">
           <div class="col-md-4 clearfix">
             <div class="logo pull-left">
-              <a href="<?php echo web_root?>"><img src="images/home/logos.png" alt="" /></a>
+              <a href="<?php echo web_root?>"><img src="images/home/logos.png" alt="" style="width: 10rem;length: 10rem; border-radius: 50%" /></a>
             </div> 
           </div>
           <div class="col-md-8 clearfix">
@@ -157,8 +134,9 @@ if (isset($_SESSION['gcCart'])){
         <div class="row">
           <div class="col-sm-2">
             <div class="companyinfo">
-              <h2><span>Smart</span>-shop</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+              <h2>Pharmacy</h2>
+              <p>Senthur Medicals, Kangeyam</p>
+              <p><img src="https://thumbs.dreamstime.com/b/pharmacy-otc-products-turkey-64209774.jpg" alt="pharmacy image" style="width:10rem;length:10rem;"></p>
             </div>
           </div>
           <div class="col-sm-7">
@@ -167,7 +145,7 @@ if (isset($_SESSION['gcCart'])){
           <div class="col-sm-3">
             <div class="address">
               <img src="images/home/map.png" alt="" />
-              <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+              <p>Senthur medicals,Kangeyam</p>
             </div>
           </div>
         </div>
@@ -176,7 +154,7 @@ if (isset($_SESSION['gcCart'])){
     
     <div class="footer-widget">
       <div class="container">
-        <p>You can modify this section using your own personal information</p>
+        
         <div class="row">
           <div class="col-sm-3">
             <div class="single-widget">
@@ -210,9 +188,8 @@ if (isset($_SESSION['gcCart'])){
               <ul class="nav nav-pills nav-stacked">
                 <li><a href="#">Terms of Use</a></li>
                 <li><a href="#">Privecy Policy</a></li>
-                <li><a href="https://youtube.com/c/nowdemy">School Management System</a></li>
-                <li><a href="https://www.youtube.com/watch?v=9NelQ_HDTXo">Point of Sales</a></li>
-                <li><a href="https://www.youtube.com/watch?v=zzfSJYOe1FE">Bitcoin Mining System</a></li>
+                <li><a href="https://youtu.be/qUEX3RFoZE0?si=hggtKvWKdGFypBoe">School Management System</a></li>
+                
               </ul>
             </div>
           </div>
@@ -235,12 +212,38 @@ if (isset($_SESSION['gcCart'])){
     </div>
     
     <div class="footer-bottom">
+  
       <div class="container">
         <div class="row">
-          <p class="pull-left">Modified by <span><a href="https://youtube.com/c/nowdemy">NOWDEMY</a></span></p>
-          <p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+          <p class="pull-left">Developed by <span><a href="https://www.linkedin.com/in/malarvizhi-v-67353b24b/" target="_blank" >Malarvizhi</a></span></p>
+          <p class="pull-right">Designed by <span><a target="_blank" href="https://www.linkedin.com/in/nekelash-prabhu-429153225/">Nekelash</a></span></p>
         </div>
       </div>
+      <div class="header_top" style="background: linear-gradient(to bottom, #2eb82e 0%, #1a75ff 100%); !important;"><!--header_top-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="contactinfo">
+              <ul class="nav nav-pills" >
+                <li><a href="#"><i class="fa fa-phone"></i> +91 97865 35333</a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i> senthurmedics@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="social-icons pull-right">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--/header_top-->
     </div>
     
   </footer><!--/Footer-->

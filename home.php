@@ -89,11 +89,11 @@
             <input type="hidden" id="PROQTY" name="PROQTY" value="<?php  echo $result->PROQTY; ?>">
 
             <input type="hidden" name="PROID" value="<?php  echo $result->PROID; ?>">
-            <div class="col-sm-4">
-              <div class="product-image-wrapper">
+            <div class="col-sm-4" >
+              <div class="product-image-wrapper"  >
                 <div class="single-products">
                     <div class="productinfo text-center">
-                      <img src="<?php  echo web_root.'admin/products/'. $result->IMAGES; ?>" alt="" />
+                      <img src="<?php  echo web_root.'admin/products/'. $result->IMAGES; ?>" alt="" style="width: 20rem;height: 20rem;"/>
                       <h2>&#8377 <?php  echo $result->PRODISPRICE; ?></h2>
                       <p><?php  echo    $result->PRODESC; ?></p>
                       <button type="submit" name="btnorder" class="btn add-to-cart" style="background-color: #457a3e;" ><i class="fa fa-shopping-cart"></i>Add to cart</button>
@@ -150,11 +150,11 @@
             <input type="hidden" id="PROQTY" name="PROQTY" value="<?php  echo $result->PROQTY; ?>">
 
             <input type="hidden" name="PROID" value="<?php  echo $result->PROID; ?>">
-                  <div class="col-sm-4">
+            <div class="col-sm-4" >
                     <div class="product-image-wrapper">
                       <div class="single-products">
                         <div class="productinfo text-center">
-                          <img src="<?php  echo web_root.'admin/products/'. $result->IMAGES; ?>" alt="" />
+                          <img src="<?php  echo web_root.'admin/products/'. $result->IMAGES; ?>" alt="" style="width: 20rem;height: 20rem;"/>
                           <h2>&#8377 <?php  echo $result->PRODISPRICE; ?></h2>
                           <p><?php  echo    $result->PRODESC; ?></p>
                            <button type="submit" name="btnorder" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
