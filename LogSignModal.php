@@ -69,9 +69,7 @@
                             </form>
 
                        </div>
-                        <div class="panel-footer">
-                             <p align="left">&copy; <a href="https://youtube.com/c/nowdemy">NOWDEMY Source Code</a></p>
-                        </div>
+                       
                     </div> 
                   </div>
                   <!-- end login panel -->
@@ -194,7 +192,7 @@
                                           "image"></label>
                                           <div class="col-md-8">
                                         <p>  I <input type="checkbox" id="conditionterms" name="conditionterms" value="checkbox" />
-                                           <small>Agree with the <a class="toggle-modal"  onclick=" OpenPopupCenter('terms.php','Terms And Codition','600','600')"  ><b>TERMS AND CONDITION</b></a> of NOWDEMY Source Code.</small>
+                                           <small>Agree with the <a class="toggle-modal"  onclick=" OpenPopupCenter('terms.php','Terms And Codition','600','600')"  ><b>TERMS AND CONDITION</b></a> of Senthur Medicals.</small>
                                            
                                           </div>
                                         </div>
@@ -215,9 +213,7 @@
                                         
 
                                      </div>
-                                    <div class="panel-footer">
-                                        <p align="left">&copy; <a href="https://youtube.com/c/nowdemy">NOWDEMY Source Code</a></p>
-                                    </div> 
+                                   
                             </div> 
                             <!-- end panel sign up -->
                         </form>  

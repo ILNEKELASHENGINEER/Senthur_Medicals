@@ -66,7 +66,7 @@ $query = "SELECT * FROM `tblsummary` s ,`tblcustomer` c
 		<table>
 			<tr>
 				<td align="center"> 
-				<img src="<?php echo web_root; ?>images/home/logo.png"   alt="Image">
+				<img src="<?php echo web_root; ?>images/home/logos.png"   alt="Image"  style="width:10rem;height:10rem;">
         		</td> 
 			</tr>
 		</table>
@@ -239,7 +239,7 @@ $query = "SELECT * FROM `tblsummary` s ,`tblcustomer` c
 		 		 <p>Please print this as a proof of purchased</p><br/>
 		  	  <p>We hope you enjoy your purchased products. Have a nice day!</p>
 		  	  <p>Sincerely.</p>
-		  	  <h4><a href="https://youtube.com/c/nowdemy">NOWDEMY Source Code</a></h4>
+		  	  
 		  </div>
 		  <?php }?>
   </div> 
